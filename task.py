@@ -1,9 +1,9 @@
 import math
 
+# This function takes in an integer value that represents the number of seconds 
+# since the epoch: January 1st 1970. The function takes num_sec and converts it 
+# to a date and returns it as a string with the following format: MM-DD-YYYY. 
 
-import math
-
-# Function 2 - Ray's code below this line
 
 def check_for_leap_year(years):
     """Returns true if years is a leap year.
