@@ -1,8 +1,8 @@
 import math
 
-# This function takes in an integer value that represents the number of seconds 
-# since the epoch: January 1st 1970. The function takes num_sec and converts it 
-# to a date and returns it as a string with the following format: MM-DD-YYYY. 
+# This function takes in an integer value that represents the number of seconds
+# since the epoch: January 1st 1970. The function takes num_sec and converts it
+# to a date and returns it as a string with the following format: MM-DD-YYYY.
 
 
 def check_for_leap_year(years):
@@ -66,4 +66,3 @@ def my_datetime(num_sec):
         total_days -= 1
 
     return f"{current_month:02d}-{current_day:02d}-{current_year}"
-    
