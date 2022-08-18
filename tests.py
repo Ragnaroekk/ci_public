@@ -32,7 +32,8 @@ class TestCase(unittest.TestCase):
         days = datetime.utcfromtimestamp(seconds).day
         years = datetime.utcfromtimestamp(seconds).year
 
-        self.assertEqual(my_datetime(seconds), f"{months:02d}-{days:02d}-{years}")
+        self.assertEqual(my_datetime(seconds),
+                         f"{months:02d}-{days:02d}-{years}")
 
     # check for a year divisible by 100 and not 400
     def test13(self):
@@ -42,7 +43,8 @@ class TestCase(unittest.TestCase):
         days = datetime.utcfromtimestamp(seconds).day
         years = datetime.utcfromtimestamp(seconds).year
 
-        self.assertEqual(my_datetime(seconds), f"{months:02d}-{days:02d}-{years}")
+        self.assertEqual(my_datetime(seconds),
+                         f"{months:02d}-{days:02d}-{years}")
 
 
 if __name__ == '__main__':
