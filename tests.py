@@ -3,7 +3,7 @@ from datetime import datetime
 from task import my_datetime
 
 
-class TestTasks(unittest.TestCase):
+class TestCase(unittest.TestCase):
     # test 0 seconds per canvas example
     def test8(self):
         seconds = 0
